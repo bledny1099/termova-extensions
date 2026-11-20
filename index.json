@@ -1,0 +1,81 @@
+{
+  "extensions" : [
+    {
+      "author" : "Termova samples",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "samples"
+      ],
+      "description" : "Runs git status -sb in the active terminal from the command palette and highlights merge conflicts when they scroll by.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.sample.git-status",
+      "name" : "Git status",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/samples-1/dev.termova.sample.git-status-1.0.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "terminal.write"
+          ],
+          "publishedAt" : "2026-11-20T05:41:18Z",
+          "sha256" : "5ec8c52ded596931f71f02b3ad9851a037720af6aa08ac5d8e1b3a5a2c18ce13",
+          "size" : 2236,
+          "version" : "1.0.0"
+        }
+      ]
+    },
+    {
+      "author" : "Termova samples",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "samples"
+      ],
+      "description" : "A panel with a list of URLs and a Check button that shows each status code and response time.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.sample.http-check",
+      "name" : "HTTP check",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/samples-1/dev.termova.sample.http-check-1.0.0.termovaext",
+          "permissions" : [
+            "storage",
+            "network:*.example.com",
+            "network:example.com"
+          ],
+          "publishedAt" : "2026-11-20T05:41:18Z",
+          "sha256" : "6feb3931dc203c2af6f26e2926e310460fb1946e0d8297deb6ed76fe88bd5b26",
+          "size" : 3317,
+          "version" : "1.0.0"
+        }
+      ]
+    },
+    {
+      "author" : "Termova samples",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "samples"
+      ],
+      "description" : "Everyday shell snippets and a row of keys for the iPhone and iPad accessory bar. Pure manifest, no JavaScript permissions.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.sample.snippets",
+      "name" : "Ops snippets",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/samples-1/dev.termova.sample.snippets-1.0.0.termovaext",
+          "permissions" : [
+
+          ],
+          "publishedAt" : "2026-11-20T05:41:18Z",
+          "sha256" : "afd1e6f6327b0c8fd3e98ea6ceac9ebe424e9f750acb6b529f48d819e9aafbe4",
+          "size" : 2427,
+          "version" : "1.0.0"
+        }
+      ]
+    }
+  ],
+  "formatVersion" : 1,
+  "generatedAt" : "2026-11-20T05:41:18Z"
+}
