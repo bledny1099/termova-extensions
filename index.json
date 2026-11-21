@@ -7,7 +7,7 @@
         "official",
         "devops"
       ],
-      "description" : "Quick Docker commands for the current host: ps, images, system df, logs, shell, restart and stop for a picked container, compose up, down and logs, and a Containers panel.",
+      "description" : "Quick Docker commands for the current host: ps, images, system df, logs, shell, restart and stop for a picked container, compose up, down and logs, and a Containers panel that reads its lists with terminal.run.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/docker.png",
       "id" : "dev.termova.docker",
@@ -36,6 +36,19 @@
           "sha256" : "599a48373db02e40190a6541ce804eec6ec61069d7e0e97dfb36718565d4580d",
           "size" : 20518,
           "version" : "1.0.1"
+        },
+        {
+          "minTermova" : "0.17.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-3/dev.termova.docker-1.1.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "terminal.write",
+            "terminal.run"
+          ],
+          "publishedAt" : "2026-11-21T21:28:37Z",
+          "sha256" : "25efb62d5f19c9b27158d24fc5058211427ba82b0290d07ba3a2b2dfb4696e0d",
+          "size" : 22234,
+          "version" : "1.1.0"
         }
       ]
     },
@@ -46,7 +59,7 @@
         "official",
         "terminal"
       ],
-      "description" : "Highlights error lines in terminal output (error, fatal, FAILED, panic, Traceback, Permission denied, command not found and more), with your own patterns and a palette command to find recent errors.",
+      "description" : "Highlights error lines in terminal output (error, fatal, FAILED, panic, Traceback, Permission denied, command not found and more), with your own patterns and palette commands that scroll to the next or previous error and list recent ones.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/error-highlight.png",
       "id" : "dev.termova.error-highlight",
@@ -75,6 +88,18 @@
           "sha256" : "4573c267661cd0804d440c3655984b8cf3c9525906f5bef5215f34d9c2ff3be0",
           "size" : 17893,
           "version" : "1.0.1"
+        },
+        {
+          "minTermova" : "0.17.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-3/dev.termova.error-highlight-1.1.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T21:28:37Z",
+          "sha256" : "38d39508885c3a44143844d853c4be8f1c46e5a0276abb0a03d92b314fc577a9",
+          "size" : 18775,
+          "version" : "1.1.0"
         }
       ]
     },
@@ -85,7 +110,7 @@
         "official",
         "workflow"
       ],
-      "description" : "Notifies you when a long-running command finishes in a terminal you are not looking at, with the host, the command and how long it took.",
+      "description" : "Notifies you when a long-running command finishes in a terminal you are not looking at, with the host, the command, the exit code and how long it took.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/notify-finished.png",
       "id" : "dev.termova.notify-finished",
@@ -116,6 +141,19 @@
           "sha256" : "2239356d66db269f11bd16c5f262982c068120d96983195dcee0d60394437e88",
           "size" : 21674,
           "version" : "1.0.1"
+        },
+        {
+          "minTermova" : "0.17.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-3/dev.termova.notify-finished-1.1.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "notifications",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T21:28:37Z",
+          "sha256" : "bac5bd429841e8f2f5e4ad95b33762286d3e2f0f6098826dbd63dd7f273f6e86",
+          "size" : 22403,
+          "version" : "1.1.0"
         }
       ]
     },
@@ -235,5 +273,5 @@
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-11-21T19:38:30Z"
+  "generatedAt" : "2026-11-21T21:28:37Z"
 }
