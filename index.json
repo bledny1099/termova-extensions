@@ -1,6 +1,85 @@
 {
   "extensions" : [
     {
+      "author" : "Termova",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "official",
+        "devops"
+      ],
+      "description" : "Quick Docker commands for the current host: ps, images, system df, logs, shell, restart and stop for a picked container, compose up, down and logs, and a Containers panel.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.docker",
+      "name" : "Docker",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-1/dev.termova.docker-1.0.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "terminal.write"
+          ],
+          "publishedAt" : "2026-11-21T19:19:07Z",
+          "sha256" : "589bf75933a4d0d435924d1394741b994873a5a90393dac279a95f52250c7f02",
+          "size" : 6581,
+          "version" : "1.0.0"
+        }
+      ]
+    },
+    {
+      "author" : "Termova",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "official",
+        "terminal"
+      ],
+      "description" : "Highlights error lines in terminal output (error, fatal, FAILED, panic, Traceback, Permission denied, command not found and more), with your own patterns and a palette command to find recent errors.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.error-highlight",
+      "name" : "Error highlight",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-1/dev.termova.error-highlight-1.0.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T19:19:07Z",
+          "sha256" : "4be21559d573ce93e96d5c802b04f1a7ebefeb8f2864947378b070d1cef4ea98",
+          "size" : 6190,
+          "version" : "1.0.0"
+        }
+      ]
+    },
+    {
+      "author" : "Termova",
+      "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
+      "categories" : [
+        "official",
+        "workflow"
+      ],
+      "description" : "Notifies you when a long-running command finishes in a terminal you are not looking at, with the host, the command and how long it took.",
+      "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "id" : "dev.termova.notify-finished",
+      "name" : "Command finished",
+      "versions" : [
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-1/dev.termova.notify-finished-1.0.0.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "notifications",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T19:19:07Z",
+          "sha256" : "ff22da89a948bed5575d136367dfbe60bb65a00c41746267c74aaf5d3a4d4579",
+          "size" : 6663,
+          "version" : "1.0.0"
+        }
+      ]
+    },
+    {
       "author" : "Termova samples",
       "authorPublicKey" : "Ls4+YDWCkKu2l0zUqKH9QzAAiqjqiAxVIMUeo0/Hy3g=",
       "categories" : [
@@ -77,5 +156,5 @@
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-11-20T05:41:18Z"
+  "generatedAt" : "2026-11-21T19:19:07Z"
 }
