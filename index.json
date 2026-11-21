@@ -9,6 +9,7 @@
       ],
       "description" : "Quick Docker commands for the current host: ps, images, system df, logs, shell, restart and stop for a picked container, compose up, down and logs, and a Containers panel.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/docker.png",
       "id" : "dev.termova.docker",
       "name" : "Docker",
       "versions" : [
@@ -23,6 +24,18 @@
           "sha256" : "589bf75933a4d0d435924d1394741b994873a5a90393dac279a95f52250c7f02",
           "size" : 6581,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.docker-1.0.1.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "terminal.write"
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "599a48373db02e40190a6541ce804eec6ec61069d7e0e97dfb36718565d4580d",
+          "size" : 20518,
+          "version" : "1.0.1"
         }
       ]
     },
@@ -35,6 +48,7 @@
       ],
       "description" : "Highlights error lines in terminal output (error, fatal, FAILED, panic, Traceback, Permission denied, command not found and more), with your own patterns and a palette command to find recent errors.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/error-highlight.png",
       "id" : "dev.termova.error-highlight",
       "name" : "Error highlight",
       "versions" : [
@@ -49,6 +63,18 @@
           "sha256" : "4be21559d573ce93e96d5c802b04f1a7ebefeb8f2864947378b070d1cef4ea98",
           "size" : 6190,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.error-highlight-1.0.1.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "4573c267661cd0804d440c3655984b8cf3c9525906f5bef5215f34d9c2ff3be0",
+          "size" : 17893,
+          "version" : "1.0.1"
         }
       ]
     },
@@ -61,6 +87,7 @@
       ],
       "description" : "Notifies you when a long-running command finishes in a terminal you are not looking at, with the host, the command and how long it took.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/notify-finished.png",
       "id" : "dev.termova.notify-finished",
       "name" : "Command finished",
       "versions" : [
@@ -76,6 +103,19 @@
           "sha256" : "ff22da89a948bed5575d136367dfbe60bb65a00c41746267c74aaf5d3a4d4579",
           "size" : 6663,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.notify-finished-1.0.1.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "notifications",
+            "storage"
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "2239356d66db269f11bd16c5f262982c068120d96983195dcee0d60394437e88",
+          "size" : 21674,
+          "version" : "1.0.1"
         }
       ]
     },
@@ -87,6 +127,7 @@
       ],
       "description" : "Runs git status -sb in the active terminal from the command palette and highlights merge conflicts when they scroll by.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/git-status.png",
       "id" : "dev.termova.sample.git-status",
       "name" : "Git status",
       "versions" : [
@@ -101,6 +142,18 @@
           "sha256" : "5ec8c52ded596931f71f02b3ad9851a037720af6aa08ac5d8e1b3a5a2c18ce13",
           "size" : 2236,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.sample.git-status-1.0.1.termovaext",
+          "permissions" : [
+            "terminal.read",
+            "terminal.write"
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "910e7588381249e6f3fe4b255e31f2feac6adb4b5a604cc70068af3b7c90c7e8",
+          "size" : 19494,
+          "version" : "1.0.1"
         }
       ]
     },
@@ -112,6 +165,7 @@
       ],
       "description" : "A panel with a list of URLs and a Check button that shows each status code and response time.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/http-check.png",
       "id" : "dev.termova.sample.http-check",
       "name" : "HTTP check",
       "versions" : [
@@ -127,6 +181,19 @@
           "sha256" : "6feb3931dc203c2af6f26e2926e310460fb1946e0d8297deb6ed76fe88bd5b26",
           "size" : 3317,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.sample.http-check-1.0.1.termovaext",
+          "permissions" : [
+            "storage",
+            "network:*.example.com",
+            "network:example.com"
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "d7a4d248ad846dfb053d214fef7f993f002befc36370b31bfb980ef211361d2e",
+          "size" : 17437,
+          "version" : "1.0.1"
         }
       ]
     },
@@ -138,6 +205,7 @@
       ],
       "description" : "Everyday shell snippets and a row of keys for the iPhone and iPad accessory bar. Pure manifest, no JavaScript permissions.",
       "homepage" : "https://github.com/bledny1099/termova-extensions",
+      "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/snippets.png",
       "id" : "dev.termova.sample.snippets",
       "name" : "Ops snippets",
       "versions" : [
@@ -151,10 +219,21 @@
           "sha256" : "afd1e6f6327b0c8fd3e98ea6ceac9ebe424e9f750acb6b529f48d819e9aafbe4",
           "size" : 2427,
           "version" : "1.0.0"
+        },
+        {
+          "minTermova" : "0.16.0",
+          "packageURL" : "https://github.com/bledny1099/termova-extensions/releases/download/official-2/dev.termova.sample.snippets-1.0.1.termovaext",
+          "permissions" : [
+
+          ],
+          "publishedAt" : "2026-11-21T19:38:30Z",
+          "sha256" : "c62ae5409a63e474664cb427ea6bbbb0c699c2f1c1d2f448ae7895a2a65e9be5",
+          "size" : 18316,
+          "version" : "1.0.1"
         }
       ]
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-11-21T19:19:07Z"
+  "generatedAt" : "2026-11-21T19:38:30Z"
 }
