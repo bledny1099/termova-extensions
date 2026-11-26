@@ -12,6 +12,22 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/docker.png",
       "id" : "dev.termova.docker",
       "name" : "Docker",
+      "screenshots" : [
+        {
+          "alt" : "Docker commands typed into the terminal: containers, images and disk usage",
+          "height" : 1304,
+          "sha256" : "233b2a0f2f949ccfe2471da3e64cdf91bffe10f5a54f66e0be282343511f0662",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.docker/docker-commands.png",
+          "width" : 2086
+        },
+        {
+          "alt" : "The Docker commands in the command palette",
+          "height" : 1304,
+          "sha256" : "e84e9bf118cf194ddf85000644c306cd5561d402e46b86f900a745e8f4e7aa38",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.docker/docker-palette.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -64,6 +80,22 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/error-highlight.png",
       "id" : "dev.termova.error-highlight",
       "name" : "Error highlight",
+      "screenshots" : [
+        {
+          "alt" : "Errors and failures in a build log highlighted in the terminal",
+          "height" : 1304,
+          "sha256" : "1beb859d060dc18b91a00e314b8aa720667b5deff4ef0ac81f73472ee565491f",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.error-highlight/error-highlight-lines.png",
+          "width" : 2086
+        },
+        {
+          "alt" : "The error commands in the command palette",
+          "height" : 1304,
+          "sha256" : "3d7911bee010e1def7b2b4a12215c08f6899c670435ab2c1a049d1f620d69250",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.error-highlight/error-highlight-palette.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -115,6 +147,22 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/notify-finished.png",
       "id" : "dev.termova.notify-finished",
       "name" : "Command finished",
+      "screenshots" : [
+        {
+          "alt" : "The Command finished settings: minimum duration, focused tab, ignored programs",
+          "height" : 1304,
+          "sha256" : "66369eed446de9088b2820d5bef1dc070d022e223715370eb62cf5e92d458485",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.notify-finished/notify-finished-settings.png",
+          "width" : 2086
+        },
+        {
+          "alt" : "The Command finished commands in the command palette",
+          "height" : 1304,
+          "sha256" : "477869ab2b7ad64406d5c886812d09703f830badd22a33c660bebd18c648c172",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.notify-finished/notify-finished-palette.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -168,6 +216,22 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/git-status.png",
       "id" : "dev.termova.sample.git-status",
       "name" : "Git status",
+      "screenshots" : [
+        {
+          "alt" : "Git status, log and diff of a project folder",
+          "height" : 1304,
+          "sha256" : "9c14243dd7ae6d38b069d596b7bde94b180b5950f11f7b46f1822e219694591f",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.sample.git-status/git-status.png",
+          "width" : 2086
+        },
+        {
+          "alt" : "The Git status command with its shortcut in the command palette",
+          "height" : 1304,
+          "sha256" : "ce965df7d22b0dba47dcb44e55fc3f24d2d749a07a300837ee7432800b2b19ac",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.sample.git-status/git-palette.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -206,6 +270,15 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/http-check.png",
       "id" : "dev.termova.sample.http-check",
       "name" : "HTTP check",
+      "screenshots" : [
+        {
+          "alt" : "The HTTP check panel: five URLs checked, two failing",
+          "height" : 1304,
+          "sha256" : "8467107b24acc5c68abb67a0bb68238a2b817961f8ed431d9756bc79dfb416a9",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.sample.http-check/http-check-panel.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -246,6 +319,15 @@
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/snippets.png",
       "id" : "dev.termova.sample.snippets",
       "name" : "Ops snippets",
+      "screenshots" : [
+        {
+          "alt" : "Ready-made snippets in the command palette",
+          "height" : 1304,
+          "sha256" : "d6083e8f68abff2d89334a7df6cf6166c4baabede0bce6068c45be944021f2f6",
+          "url" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/screenshots/dev.termova.sample.snippets/snippets-palette.png",
+          "width" : 2086
+        }
+      ],
       "versions" : [
         {
           "minTermova" : "0.16.0",
@@ -273,5 +355,5 @@
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-11-21T21:28:37Z"
+  "generatedAt" : "2026-11-26T10:52:02Z"
 }
