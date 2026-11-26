@@ -8,6 +8,7 @@
         "devops"
       ],
       "description" : "Quick Docker commands for the current host: ps, images, system df, logs, shell, restart and stop for a picked container, compose up, down and logs, and a Containers panel that reads its lists with terminal.run.",
+      "downloads" : 10,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/docker.png",
       "id" : "dev.termova.docker",
@@ -76,6 +77,7 @@
         "terminal"
       ],
       "description" : "Highlights error lines in terminal output (error, fatal, FAILED, panic, Traceback, Permission denied, command not found and more), with your own patterns and palette commands that scroll to the next or previous error and list recent ones.",
+      "downloads" : 10,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/error-highlight.png",
       "id" : "dev.termova.error-highlight",
@@ -143,6 +145,7 @@
         "workflow"
       ],
       "description" : "Notifies you when a long-running command finishes in a terminal you are not looking at, with the host, the command, the exit code and how long it took.",
+      "downloads" : 51,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/notify-finished.png",
       "id" : "dev.termova.notify-finished",
@@ -212,6 +215,7 @@
         "samples"
       ],
       "description" : "Runs git status -sb in the active terminal from the command palette and highlights merge conflicts when they scroll by.",
+      "downloads" : 9,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/git-status.png",
       "id" : "dev.termova.sample.git-status",
@@ -266,6 +270,7 @@
         "samples"
       ],
       "description" : "A panel with a list of URLs and a Check button that shows each status code and response time.",
+      "downloads" : 9,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/http-check.png",
       "id" : "dev.termova.sample.http-check",
@@ -315,6 +320,7 @@
         "samples"
       ],
       "description" : "Everyday shell snippets and a row of keys for the iPhone and iPad accessory bar. Pure manifest, no JavaScript permissions.",
+      "downloads" : 9,
       "homepage" : "https://github.com/bledny1099/termova-extensions",
       "icon" : "https://raw.githubusercontent.com/bledny1099/termova-extensions/main/icons/snippets.png",
       "id" : "dev.termova.sample.snippets",
@@ -355,5 +361,5 @@
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-11-26T10:52:02Z"
+  "generatedAt" : "2026-11-26T10:52:38Z"
 }
